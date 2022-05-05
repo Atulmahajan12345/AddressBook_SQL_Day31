@@ -263,3 +263,16 @@ mysql> select * from addressbook where contactType='profession';
 | Atul      | mahajan  | coorg   | Chikkamagalur | Karnatak | 50102 |  7083999198 | atulm@gmail.com | two      | Profession  |
 +-----------+----------+---------+---------------+----------+-------+-------------+-----------------+----------+-------------+
 1 row in set (0.00 sec)
+
+
+========================================================
+-- UC10 ability to get count of contacts by contacttype
+========================================================
+
+mysql> select count(firstname) from AddressBook where contactType='family';
++------------------+
+| count(firstname) |
++------------------+
+|                1 |
++------------------+
+1 row in set (0.00 sec)
