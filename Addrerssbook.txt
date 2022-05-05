@@ -1,0 +1,22 @@
+===========================================================
+-- UC1 Creating database as AddessBookService
+===========================================================
+
+mysql> create database AddressBookService1;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> show databases;
++---------------------+
+| Database            |
++---------------------+
+| addressbookservice  |
+| addressbookservice1 |
+| addressbookservices |
+| information_schema  |
+| mysql               |
+| performance_schema  |
+| sakila              |
+| sys                 |
+| world               |
++---------------------+
+9 rows in set (0.01 sec)
