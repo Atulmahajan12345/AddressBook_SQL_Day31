@@ -131,3 +131,16 @@ mysql> select * from AddressBook where city = 'surat' or State='Gujrat';
 +-----------+----------+---------+-------+--------+--------+-------------+------------------+
 1 row in set (0.00 sec)
 
+
+=============================================
+-- UC7 size of addressbook by city and state
+=============================================
+
+mysql> select count(firstname) from AddressBook where city = 'surat';
++------------------+
+| count(firstname) |
++------------------+
+|                1 |
++------------------+
+1 row in set (0.00 sec)
+
